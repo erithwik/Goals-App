@@ -1,0 +1,37 @@
+:root {
+  --light: #f1f1f2;
+  --gray: #bcbabe;
+  --light-blue: #a1dce2;
+  --blue: #1995ad;
+  --green: #90ee90;
+}
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* box-shadow: 3px 8px 35px -12px rgba(0, 0, 0, 1); */
+}
+
+.first-block {
+  grid-column: 1;
+}
+
+.second-block {
+  grid-column: 2;
+}
+
+.third-block {
+  grid-column: 3;
+}
+
+.fourth-block {
+  grid-column: 4;
+}
+
+.heading {
+  color: #1995ad;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  letter-spacing: 3px;
+}
