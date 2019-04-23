@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans|Josefin+Slab");
 
 body {
-  background: var(--light);
+  background: url("white-waves.png");
 }

@@ -20,6 +20,15 @@ class Profile extends Component {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
+        <p className="supporters j-sans">
+          tokens: 56 <i class="fas fa-thumbs-up" />
+        </p>
+        <p className="age j-sans">
+          Age: 2 years <i class="fas fa-clock" />
+        </p>
+        <p className="goals-accomplished j-sans">
+          Goals: 32 <i class="fas fa-check" />
+        </p>
       </div>
     );
   }

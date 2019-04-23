@@ -15,7 +15,7 @@ class NavBar extends Component {
           src="https://static1.squarespace.com/static/58402c31ebbd1adb9cdc46e3/t/58402ccef5e23155fea19d2c/1469729761345/hero_pattern.png?format=1000w"
           className="navbar-user-image"
         />
-        <p className="j-sans navbar-username">Username</p>
+        <button className="j-sans navbar-profile">Profile</button>
         <button className="j-sans navbar-login">Login</button>
       </div>
     );

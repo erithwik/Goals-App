@@ -1,0 +1,29 @@
+.view-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.view-filter {
+  grid-column: 1 / span 1;
+  justify-self: center;
+}
+
+.view-items {
+  grid-column: 2 / span 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.first-block {
+  grid-column: 1;
+}
+
+.second-block {
+  grid-column: 2;
+}
+
+.third-block {
+  grid-column: 3;
+}

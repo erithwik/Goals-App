@@ -5,6 +5,10 @@
   grid-template-columns: repeat(10, 1fr);
   padding: 1em;
   box-shadow: 3px 8px 35px -12px rgba(0, 0, 0, 1);
+  position: -webkit-sticky;
+  position: sticky;
+  background: var(--light);
+  top: 0;
 }
 
 button {
@@ -47,7 +51,7 @@ button:hover {
   grid-column: 8;
 }
 
-.navbar-username {
+.navbar-profile {
   color: var(--blue);
   text-transform: uppercase;
   font-size: 12px;

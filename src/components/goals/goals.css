@@ -17,7 +17,13 @@
   grid-template-columns: repeat(2, 1fr);
   margin: 1em;
   color: var(--blue);
+  background: var(--light);
   box-shadow: 3px 8px 35px -12px rgba(0, 0, 0, 0.65);
+}
+
+.goal-wrapper:hover {
+  box-shadow: 3px 8px 35px -12px rgba(0, 0, 0, 1);
+  /* box-shadow: none; */
 }
 
 .upvote-button:hover {
